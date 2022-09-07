@@ -1,0 +1,102 @@
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+body{
+    display: flex;
+    padding: 0 10px;
+    min-height: 100vh;
+    align-items: center;
+    background: white;
+    justify-content: center;
+  }
+
+  img {
+    width: 100px;
+    margin: 10px auto;
+    display: flex;
+  }
+
+  .container p {
+    text-align: center;
+    font-size: 18px;
+    margin-bottom: 5px;
+  }
+
+  .follow {
+    display: flex;
+    justify-content: center;
+  }
+
+  .fa-brands {
+    font-size: 1.5rem;
+    padding-left: 3px;
+    padding-right: 3px;
+  }
+
+  .fa-instagram-square {
+    color: transparent;
+    background: -webkit-radial-gradient(
+      30% 107%,
+      circle,
+      #fdf497 0%,
+      #fdf497 5%,
+      #fd5949 45%,
+      #d6249f 60%,
+      #285aeb 90%
+    );
+    background: -o-radial-gradient(
+      30% 107%,
+      circle,
+      #fdf497 0%,
+      #fdf497 5%,
+      #fd5949 45%,
+      #d6249f 60%,
+      #285aeb 90%
+    );
+    background: radial-gradient(
+      circle at 30% 107%,
+      #fdf497 0%,
+      #fdf497 5%,
+      #fd5949 45%,
+      #d6249f 60%,
+      #285aeb 90%
+    );
+    background: -webkit-radial-gradient(
+      circle at 30% 107%,
+      #fdf497 0%,
+      #fdf497 5%,
+      #fd5949 45%,
+      #d6249f 60%,
+      #285aeb 90%
+    );
+    background-clip: text;
+    -webkit-background-clip: text;
+  }
+
+  button {
+    margin: 20px auto 50px auto;
+    display: flex;
+    border: none;
+    background: white;
+  }
+
+  button a {
+    text-decoration: none;
+    padding: 10px;
+    font-size: 15px;
+    color: magenta;
+    border: 1px solid magenta;
+    border-radius: 7px;
+  }
+
+  .footer-bottom {
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    margin: 7px auto 0px auto;
+  }

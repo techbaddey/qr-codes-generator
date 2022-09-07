@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>QR Code Scanner</title>
+    <link rel="stylesheet" href="css/all.css">
+    <link rel="stylesheet" href="css/styletwo.css">
+  </head>
+  <body>
+    <div class="wrapper">
+      <div class="title">
+        <h4>QR Code Scanner</h4>
+        <p>Upload a QR Code image file below.</p>
+        <p>Note that: You can generate QR Codes using <a href="./qrcode.html"> QR Code Generator</a>.</p>
+      </div>
+      <form action="#">
+        <input type="file" hidden>
+        <img src="#" alt="qr-code">
+        <div class="content">
+          <i class="fa-solid fa-file-arrow-up"></i>
+          <p>Upload QR Code to Read</p>
+        </div>
+      </form>
+      <div class="details">
+        <textarea spellcheck="false" disabled></textarea>
+        <div class="buttons">
+          <button class="close">Close</button>
+          <button class="copy">Copy Text</button>
+        </div>
+      </div>
+    </div>
+
+    <script src="scripts/scripttwo.js"></script>
+
+  </body>
+</html>
